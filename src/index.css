@@ -10,8 +10,33 @@
   --color-grey-light: #9ca3af;
 }
 
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 @layer utilities {
   .writing-mode-vertical {
     writing-mode: vertical-rl;
+  }
+  /* Scroll animations */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition:
+      opacity 0.8s ease,
+      transform 0.8s ease;
+  }
+
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  /* Better focus states - accessibility */
+
+  *:focus-visible {
+    outline: 2px solid #af5b5b;
+    outline-offset: 4px;
   }
 }

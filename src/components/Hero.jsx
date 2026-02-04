@@ -16,7 +16,7 @@ export default function Hero() {
       {/* Content */}
       <div className='max-w-6xl w-full px-6 md:px-20 lg:px-32 relative z-10'>
         <div className='space-y-6'>
-          <h1 className='text-5xl md:text-7xl lg:text-9xl font-bold hover:text-accent'>
+          <h1 className='text-5xl md:text-7xl lg:text-9xl font-bold tracking-tight'>
             Jack Cain
           </h1>
 
@@ -27,8 +27,11 @@ export default function Hero() {
           <div className='pt-6'>
             <a
               href='#work'
-              className='text-xs md:text-sm uppercase tracking-widest hover:text-accent transition-colors inline-block ml-8 md:ml-16'>
-              View Work ↓
+              className='text-xs md:text-sm uppercase tracking-widest hover:text-accent transition-colors inline-block ml-8 md:ml-16 group'>
+              View Work{' '}
+              <span className='inline-block group-hover:translate-y-1 transition-transform'>
+                ↓
+              </span>
             </a>
           </div>
         </div>

@@ -1,21 +1,28 @@
+import { useScrollAnimation } from '../hooks/useScrollAnimation'
 import { skillCategories } from '../data/skillsData'
 
 export default function About() {
+  const [leftRef, leftVisible] = useScrollAnimation()
+  const [rightRef, rightVisible] = useScrollAnimation()
+
   return (
     <section id='about' className='border-b border-black'>
       <div className='max-w-7xl mx-auto px-6 md:px-20 py-20'>
         <div className='grid md:grid-cols-12 gap-12'>
           {/* Left column - About */}
-          <div className='md:col-span-7'>
+          <div
+            ref={leftRef}
+            className={`md:col-span-7 fade-in ${leftVisible ? 'visible' : ''}`}>
             <p className='text-sm uppercase tracking-widest mb-6 text-grey'>
               About
             </p>
-            <h2 className='text-2xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight'>
+            <h2 className='text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight tracking-tight'>
+              {' '}
               Full-stack engineer
               <br />
-              with
+              building exciting
               <br />
-              vast experience
+              AI applications
             </h2>
             <div className='space-y-4 text-base md:text-lg leading-relaxed text-grey-dark'>
               <p>
@@ -24,16 +31,18 @@ export default function About() {
                 databases, and semantic search.
               </p>
               <p>
-                3 years of contract work with Meta through HCLTech and 2 years
-                of startup work at CollegeHouse. I bring hands-on development
-                experience to any and every project, emphasizing clean code and
-                thoughtful design.
+                With experience in different environments, 3 years of contract
+                work with Meta through HCLTech and two years of startup work at
+                CollegeHouse. I bring hands-on development experience to any and
+                every project, emphasizing clean code and thoughtful design.
               </p>
             </div>
           </div>
 
           {/* Right column - Skills */}
-          <div className='md:col-span-5'>
+          <div
+            ref={rightRef}
+            className={`md:col-span-5 fade-in ${rightVisible ? 'visible' : ''}`}>
             <p className='text-sm uppercase tracking-widest mb-6 text-grey'>
               Expertise
             </p>
