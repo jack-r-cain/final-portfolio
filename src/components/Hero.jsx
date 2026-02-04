@@ -16,12 +16,12 @@ export default function Hero() {
       {/* Content */}
       <div className='max-w-6xl w-full px-6 md:px-20 lg:px-32 relative z-10'>
         <div className='space-y-6'>
-          <h1 className='text-5xl md:text-7xl lg:text-9xl font-bold'>
+          <h1 className='text-5xl md:text-7xl lg:text-9xl font-bold hover:text-accent'>
             Jack Cain
           </h1>
 
           <p className='text-xs md:text-sm uppercase tracking-widest text-grey-dark ml-3 md:ml-6'>
-            Full Stack Dev • AI Engineer
+            Full Stack Developer • AI Engineer
           </p>
 
           <div className='pt-6'>
