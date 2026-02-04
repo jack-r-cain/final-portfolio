@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Your custom colors */
+  --color-black: #37393a;
+  --color-white: #f6f4f3;
+  --color-accent: #af5b5b;
+  --color-grey-dark: #495867;
+  --color-grey: #6b7280;
+  --color-grey-light: #9ca3af;
+}
+
+@layer utilities {
+  .writing-mode-vertical {
+    writing-mode: vertical-rl;
+  }
+}
