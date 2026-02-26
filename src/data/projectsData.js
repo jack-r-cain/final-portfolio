@@ -31,4 +31,19 @@ export const projects = [
     ],
     // No link, no demo -> update
   },
+  {
+    id: 4,
+    title: 'Spin',
+    description:
+      'Mobile music rating/discover social platform. In IOS Beta testing.',
+    tags: [
+      'React Native',
+      'Supabase',
+      'StyleSheet API',
+      'PostgreSQL',
+      'Supabase Edge Functions',
+      'Spotify API',
+    ],
+    // No link, no demo -> update
+  },
 ]
