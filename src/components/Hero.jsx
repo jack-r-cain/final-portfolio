@@ -16,7 +16,7 @@ export default function Hero() {
       {/* Content */}
       <div className='max-w-6xl w-full px-6 md:px-20 lg:px-32 relative z-10'>
         <div className='space-y-6'>
-          <h1 className='text-5xl md:text-7xl lg:text-9xl font-bold tracking-tight'>
+          <h1 className='text-5xl md:text-7xl lg:text-9xl tracking-tight font-display'>
             Jack Cain
           </h1>
 

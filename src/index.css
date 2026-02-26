@@ -8,6 +8,8 @@
   --color-grey-dark: #495867;
   --color-grey: #6b7280;
   --color-grey-light: #9ca3af;
+
+  --font-display: 'Clash Display', sans-serif;
 }
 
 @layer base {
