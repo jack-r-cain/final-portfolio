@@ -27,12 +27,12 @@ export default function About() {
             <div className='space-y-4 text-base md:text-lg leading-relaxed text-grey-dark'>
               <p>
                 I build practical applications that leverage modern machine
-                learning capabilities, with a focus on RAG architectures, vector
-                databases, and semantic search.
+                learning capabilities, with a focus on agentic AI, RAG
+                architectures, vector databases, and semantic search.
               </p>
               <p>
-                With experience in different environments: 3 years of contract
-                work with Meta through HCLTech and two years of startup work at
+                With experience in different environments: 3+ years of contract
+                work with Meta through HCLTech and 2 years of startup work at
                 CollegeHouse, I bring hands-on development and creative problem
                 solving experience to any and every project, emphasizing clean
                 code and thoughtful design.
