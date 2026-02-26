@@ -31,10 +31,11 @@ export default function About() {
                 databases, and semantic search.
               </p>
               <p>
-                With experience in different environments, 3 years of contract
+                With experience in different environments: 3 years of contract
                 work with Meta through HCLTech and two years of startup work at
-                CollegeHouse. I bring hands-on development experience to any and
-                every project, emphasizing clean code and thoughtful design.
+                CollegeHouse, I bring hands-on development and creative problem
+                solving experience to any and every project, emphasizing clean
+                code and thoughtful design.
               </p>
             </div>
           </div>

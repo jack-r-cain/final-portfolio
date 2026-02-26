@@ -26,7 +26,7 @@ export default function Contact() {
           {/* Right column */}
           <div className='flex flex-col justify-end gap-6'>
             <a
-              href='https://github.com/yourusername'
+              href='https://github.com/jack-r-cain'
               target='_blank'
               rel='noopener noreferrer'
               className='text-xl border-b border-black pb-2 hover:border-accent hover:text-accent transition-all flex justify-between items-center group'>
@@ -37,7 +37,7 @@ export default function Contact() {
             </a>
 
             <a
-              href='https://linkedin.com/in/yourusername'
+              href='https://linkedin.com/in/cain-jack/'
               target='_blank'
               rel='noopener noreferrer'
               className='text-xl border-b border-black pb-2 hover:border-accent hover:text-accent transition-all flex justify-between items-center group'>
@@ -48,7 +48,7 @@ export default function Contact() {
             </a>
 
             <a
-              href='mailto:your.email@example.com'
+              href='mailto:jackcaindev@gmail.com'
               className='text-xl border-b border-black pb-2 hover:border-accent hover:text-accent transition-all flex justify-between items-center group'>
               <span>Email</span>
               <span className='text-sm group-hover:translate-x-2 transition-transform'>

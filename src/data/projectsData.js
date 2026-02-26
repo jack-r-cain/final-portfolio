@@ -18,11 +18,17 @@ export const projects = [
   },
   {
     id: 3,
-    title: 'Portfolio Site',
+    title: 'Blue Velvet',
     description:
-      'This editorial-style portfolio built with React and Tailwind v4. Clean, minimal design showcasing projects and technical expertise with attention to typography and layout.',
-    tags: ['React', 'Vite', 'Tailwind v4'],
-    githubLink: 'https://github.com/jack-r-cain/final-portfolio',
-    // Only GitHub link, no demo
+      'AI-powered movie recommendation engine utilizing semantic search and taste profiling. Built to understand cinematic preferences and mood, surfacing films that match how you actually watch.',
+    tags: [
+      'React',
+      'FastAPI',
+      'Hugging Face',
+      'ChromaDB',
+      'OpenAI API',
+      'TMDB API',
+    ],
+    // No link, no demo -> update
   },
 ]
