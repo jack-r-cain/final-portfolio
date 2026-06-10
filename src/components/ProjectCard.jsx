@@ -18,7 +18,7 @@ export default function ProjectCard({ project, index }) {
 
         {/* Content */}
         <div className={hasLinks ? 'md:col-span-7' : 'md:col-span-10'}>
-          <h3 className='text-3xl md:text-4xl font-bold mb-4'>
+          <h3 className='text-3xl md:text-4xl mb-4 group-hover:text-accent'>
             {project.title}
           </h3>
 
@@ -26,15 +26,9 @@ export default function ProjectCard({ project, index }) {
             {project.description}
           </p>
 
-          <div className='flex flex-wrap gap-3'>
-            {project.tags.map((tag) => (
-              <span
-                key={tag}
-                className='text-xs uppercase tracking-widest border border-grey-dark px-3 py-2 hover:border-accent hover:text-accent transition-colors'>
-                {tag}
-              </span>
-            ))}
-          </div>
+          <p className='text-xs tracking-wide text-grey'>
+            {project.tags.join(' · ')}
+          </p>
         </div>
 
         {/* Links */}

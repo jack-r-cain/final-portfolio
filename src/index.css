@@ -2,12 +2,12 @@
 
 @theme {
   /* Your custom colors */
-  --color-black: #37393a;
-  --color-white: #f6f4f3;
-  --color-accent: #af5b5b;
-  --color-grey-dark: #495867;
-  --color-grey: #6b7280;
-  --color-grey-light: #9ca3af;
+  --color-black: #eeeeee;
+  --color-white: #222222;
+  --color-accent: #8b5cf6;
+  --color-grey-dark: #999999;
+  --color-grey: #666666;
+  --color-grey-light: #444444;
 
   --font-display: 'Clash Display', sans-serif;
 }
@@ -38,7 +38,7 @@
   /* Better focus states - accessibility */
 
   *:focus-visible {
-    outline: 2px solid #af5b5b;
+    outline: 2px solid #8b5cf6;
     outline-offset: 4px;
   }
 }

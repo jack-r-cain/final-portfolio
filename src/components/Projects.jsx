@@ -7,10 +7,10 @@ export default function Projects() {
       <div className='max-w-7xl mx-auto px-6 md:px-20 md:py-20'>
         {/* Section header */}
         <div className='mb-16'>
-          <p className='text-sm uppercase tracking-widest mb-4 text-grey'>
+          <p className='text-sm uppercase tracking-widest mb-4 text-accent'>
             Selected Work
           </p>
-          <h2 className='text-5xl md:text-6xl lg:text-7xl font-bold'>
+          <h2 className='text-5xl md:text-6xl lg:text-7xl'>
             Projects
           </h2>
         </div>

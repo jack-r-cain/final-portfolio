@@ -8,21 +8,21 @@ export default function Navigation() {
             <li>
               <a
                 href='#work'
-                className='hover:opacity-50 transition-opacity writing-mode-vertical rotate-180'>
+                className='hover:text-accent transition-colors writing-mode-vertical rotate-180'>
                 Work
               </a>
             </li>
             <li>
               <a
                 href='#about'
-                className='hover:opacity-50 transition-opacity writing-mode-vertical rotate-180'>
+                className='hover:text-accent transition-colors writing-mode-vertical rotate-180'>
                 About
               </a>
             </li>
             <li>
               <a
                 href='#contact'
-                className='hover:opacity-50 transition-opacity writing-mode-vertical rotate-180'>
+                className='hover:text-accent transition-colors writing-mode-vertical rotate-180'>
                 Contact
               </a>
             </li>
