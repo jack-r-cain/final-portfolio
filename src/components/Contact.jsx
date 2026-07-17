@@ -28,7 +28,7 @@ export default function Contact() {
           {/* Right column */}
           <div className='flex flex-col justify-end gap-6'>
             <a
-              href='https://github.com/carnellai'
+              href='https://github.com/jackcaindev'
               target='_blank'
               rel='noopener noreferrer'
               className='text-xl border-b border-grey-light pb-2 hover:border-accent hover:text-accent transition-all flex justify-between items-center group'>

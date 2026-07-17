@@ -17,7 +17,7 @@ export default function Hero() {
           </h1>
 
           <p className='text-xs md:text-sm uppercase tracking-widest text-grey-dark ml-3 md:ml-6'>
-            Full Stack Developer • AI Engineer
+            AI Engineer • Forward Deployed Engineer
           </p>
 
           <div className='pt-6'>

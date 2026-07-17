@@ -2,6 +2,7 @@ import SideNav from './components/SideNav'
 import Hero from './components/Hero'
 import Projects from './components/Projects'
 import About from './components/About'
+import Skills from './components/Skills'
 import Contact from './components/Contact'
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Hero />
         <Projects />
         <About />
+        <Skills />
         <Contact />
       </main>
       <footer className='border-t border-grey-light bg-white'>

@@ -21,6 +21,13 @@ export default function Navigation() {
             </li>
             <li>
               <a
+                href='#skills'
+                className='hover:text-accent transition-colors writing-mode-vertical rotate-180'>
+                Skills
+              </a>
+            </li>
+            <li>
+              <a
                 href='#contact'
                 className='hover:text-accent transition-colors writing-mode-vertical rotate-180'>
                 Contact
@@ -43,6 +50,11 @@ export default function Navigation() {
             <li>
               <a href='#about' className='hover:text-accent transition-colors'>
                 About
+              </a>
+            </li>
+            <li>
+              <a href='#skills' className='hover:text-accent transition-colors'>
+                Skills
               </a>
             </li>
             <li>

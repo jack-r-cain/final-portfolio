@@ -15,19 +15,22 @@ export default function About() {
               About
             </p>
             <h2 className='text-4xl md:text-5xl lg:text-6xl mb-8 leading-tight tracking-tight'>
-              Full-stack engineer. I build AI systems that actually ship.
+              AI engineer who builds agentic systems — and ships them.
             </h2>
             <div className='space-y-4 text-base md:text-lg leading-relaxed text-grey-dark'>
               <p>
-                I specialize in React, FastAPI, and Python — with hands-on
-                experience in LangGraph, RAG architectures, and vector
-                databases. Previously contracted at Meta (top 1% entry-level,
-                Rising Star Award) and built AI tooling at an early-stage
-                startup.
+                I specialize in multi-agent orchestration with LangGraph, RAG
+                architectures, and vector databases, built on a React, FastAPI,
+                and Python stack. Previously contracted at Meta (top 1%
+                entry-level, Rising Star Award) and built AI tooling at an
+                early-stage startup.
               </p>
               <p>
-                I care about systems that are well-designed end to end — from
-                the API layer to the UI. Currently open to remote roles.
+                I care about systems that are well-designed end to end, from
+                agent orchestration to the UI. Currently focused on Forward
+                Deployed Engineer and AI engineering roles - the kind of work
+                where shipping real agentic systems matters more than whiteboard
+                algorithms.
               </p>
             </div>
           </div>

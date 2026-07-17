@@ -1,5 +1,12 @@
 export const skillCategories = {
   Frontend: ['React', 'TypeScript', 'Tailwind CSS', 'Vite'],
-  Backend: ['FastAPI', 'Python', 'Node.js', 'PostgreSQL'],
-  'AI/ML': ['OpenAI/Anthropic APIs', 'LangGraph', 'Agentic AI'],
+  Backend: ['Python', 'FastAPI', 'PostgreSQL', 'Redis', 'Docker', 'Node.js'],
+  'AI/ML': [
+    'LangGraph',
+    'Multi-Agent Orchestration',
+    'RAG',
+    'MCP',
+    'Vector DBs (pgvector)',
+    'OpenAI/Anthropic APIs',
+  ],
 }
